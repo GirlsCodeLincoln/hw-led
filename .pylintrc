@@ -1,0 +1,12 @@
+[MAIN]
+# gpiozero only installs on a Raspberry Pi. Linting on a laptop cannot import it; that is not an error.
+ignored-modules=gpiozero
+extension-pkg-allow-list=gpiozero
+
+[FORMAT]
+max-line-length=150
+
+[MESSAGES CONTROL]
+# Every step file is a standalone lesson a student opens on its own, so the identical
+# main()/try/finally epilogue is deliberate shape, not shared logic waiting to be extracted.
+disable=duplicate-code

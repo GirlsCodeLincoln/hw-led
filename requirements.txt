@@ -1,0 +1,2 @@
+gpiozero>=2.0
+lgpio>=0.2; platform_machine == "aarch64" or platform_machine == "armv7l"
